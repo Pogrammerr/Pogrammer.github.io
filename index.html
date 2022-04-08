@@ -5,17 +5,100 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="index.css" rel="stylesheet">
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anek+Tamil:wght@400;700&family=Lobster&display=swap" rel="stylesheet">
+
   <script src="script.js" defer></script>
-  <title>Document</title>
+  <title>CanOzfuttu</title>
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
 </head>
 <body>
-  <div id="present">
-    <h1>Tıkla bakalım ne çıkacak?</h1>
-    <img src="hediye.jpg" id="hediye" />  
-  </div>
-  <div id="car" class="hidden">
-    <h1>Hayırlı olsun :)</h1>
-    <img src="araba.webp" />  
-  </div>
+  <nav class="navbar" id="navbar">
+    <a href="#about">
+      <img src="images/logo.png" class="logo" />
+    </a>
+    <ul class="row nav-container">
+      <li><a class="navbar-item" href="#about">About Me</a></li>
+      <li><a class="navbar-item" href="#hobbiesnskills">Hobbies & Skills</a></li>
+      <li><a class="navbar-item" href="#projects">Projects</a></li>
+      <li><a class="navbar-item" href="#contact">Contact</a></li>
+      <li><a href="https://www.linkedin.com/in/canozfuttu" target="_blank" rel="noreferrer"><img src="images/linkedin.png" class="social"/></a></li>
+      <li><a href="https://github.com/Pogrammerr" target="_blank" rel="noreferrer"><img src="images/github.png" class="social"/></a></li>
+    </ul>
+  </nav>
+  <section id="about">
+    <h1 class="lobster lg">ABOUT ME</h1>
+    <div class="card">
+      <img src="images/BlacknWhite_me.jpg" class="img-small" />
+      <div class="col">
+        <h2 class="lobster md">Hello, my name is Can!</h2>
+        <h3>I'm a web developer who's currently working on a <b class="lobster">game</b> project based on <b class="lobster">blockchain</b>.</h3>
+      </div>
+    </div>
+  </section>
+  <section id="hobbiesnskills">
+    <h1 class="lobster lg">MY HOBBIES</h1>
+    <div class="card fullwidth">
+      <img src="images/coolPose_me.jpg" />
+      <div class="col">
+        <h1>I love a good <b class="lobster">challenge</b>.</h1>
+        <h3>I've always faced with challenges in many parts of my life, and I've always got past them.</h3>
+        <h2>“Most of the important things in the world have been accomplished by people who have kept on trying when there seemed to be no hope at all.”</h2>
+        <h1 class="lobster">-Dale Carnegie</h1>
+      </div>
+    </div>
+    <div class="card row fullwidth">
+      <img src="images/cooking.jpeg" />
+      <div class="col">
+        <h1>I love <b class="lobster">cooking</b>, especially foods from <b>different cultures</b>.</h1>
+        <h4>I'm living in an apartment with my mother, and since she's a dentist, I'm the one who usually cooks something in the family.</h4>
+        <h2>I can cook various dinners including meat, soup, pasta stuff and vegetables.</h2>
+      </div>
+    </div>
+    <a href="/CanOzfuttu_CV.pdf">
+      <button>MY CV</button>
+    </a>
+  </section>
+  <section id="projects">
+    <h1 class="lobster lg">MY PROJECTS</h1>
+    <div class="card row fullwidth">
+      <img src="images/pulsar.png" />
+      <div class="col">
+        <a href="https://www.pulsar.farm/"><h1>pulsar.farm</h1></a>
+        <h1><b class="lobster">First site</b> I've made, but most of it got forked :p</h1>
+        <h2>This site got forked from <a href="https://pancakeswap.finance/">pancakeswap.finance</a>, the first yield farming website on blockchain.</h2>
+        <h2>While this <b class="lobster">yield farming</b> concept was relatively new and popular, me and my friends from highschool decided to create a site of our own.</h2>
+        <h3>Do not forget that you need to have <b class="lobster">Metamask</b> installed in your browser in order to interact with blockchain. You need to switch your network to Binance Smart Chain.</h3>
+      </div>
+    </div>
+    <div class="card fullwidth">
+      <img src="images/gamma.png" />
+      <div class="col">
+        <a href="https://gamma.polypulsar.farm/"><h1>gamma.polypulsar.farm</h1></a>
+        <h1>First site I've actually made <b class="lobster">by my own</b> (no fork).</h1>
+        <h2>We've managed to earn some money on the previous website, so we decided to launch a new title with more stuff, including gaming.</h2>
+        <h3>While you're yield farming, you can play the games on the website with the yields you've gained.</h3>
+      </div>
+    </div>
+    <div class="card fullwidth">
+      <img src="images/icecolony.png" />
+      <div class="col">
+        <a href="https://www.icecolony.com/"><h1>icecolony.com</h1></a>
+        <h1>Another website based on blockchain with yield farming concept, but with more animations and a better look.</h1>
+        <h2>I got used to creating blockchain based websites, so we decided to create a brand new title.</h2>
+        <h3>We still have plans for this website, I'm trying to implement some kind of <b class="lobster">Build your own NFT</b> kind of stuff with HTML Canvas.</h3>
+      </div>
+    </div>
+  </section>
+  <section id="contact">
+    <div class="card fullwidth">
+      <img src="images/my_cat.jpeg" />
+      <div class="col">
+        <h1>You can contact with me if you want to learn more at <b class="lobster">canozfuttu07@gmail.com!</b></h1>
+      </div>
+    </div>
+  </section>
 </body>
 </html>
